@@ -12,10 +12,10 @@
 <script type="text/javascript">
 $(function () {
 	$('#shortener').submit(function () {
-		$.ajax({data: {longurl: $('#longurl').val()}, url: 'shorten.php', complete: function (XMLHttpRequest, textStatus) {
-			$('#longurl').val(XMLHttpRequest.responseText);
-		}});
-		return false;
+	$.ajax({data: {longurl: $('#longurl').val()}, url: 'shorten.php', complete: function (XMLHttpRequest, textStatus) {
+		$('#longurl').val(XMLHttpRequest.responseText);
+	}});
+	return false;
 	});
 });
 </script>

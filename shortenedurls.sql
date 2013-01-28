@@ -1,6 +1,6 @@
--- 
+--
 -- Table structure for table `shortenedurls`
--- 
+--
 
 CREATE TABLE `shortenedurls` (
   `id` int(10) unsigned NOT NULL auto_increment,
